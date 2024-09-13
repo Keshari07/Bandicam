@@ -1,0 +1,45 @@
+﻿2023-10-14 12:53:09.445 - ScreenRecorder starting.
+2023-10-14 12:53:09.445 - Version: 
+2023-10-14 12:53:09.445 - Build: Release
+2023-10-14 12:53:09.445 - Command line: "C:\Program Files\WindowsApps\8075Queenloft.ScreenshotSnippingTool_1.1.64.0_x64__g5dqhteqemct8\ShareXMyVk\ShareX.exe" 
+2023-10-14 12:53:09.445 - Personal path: C:\Users\acer\Documents\ScreenRecorder
+2023-10-14 12:53:09.445 - Operating system: Windows 10 Pro (64-bit)
+2023-10-14 12:53:09.445 - Running as elevated process: False
+2023-10-14 12:53:09.844 - Flags: Dev
+2023-10-14 12:53:09.866 - ApplicationConfig file does not exist: C:\Users\acer\Documents\ScreenRecorder\ApplicationConfig.json
+2023-10-14 12:53:09.866 - ApplicationConfig file does not exist: C:\Users\acer\Documents\ScreenRecorder\ApplicationConfig.json.temp
+2023-10-14 12:53:09.866 - ApplicationConfig file does not exist: C:\Users\acer\Documents\ScreenRecorder\Backup\ApplicationConfig.json
+2023-10-14 12:53:09.866 - Loading new ApplicationConfig instance.
+2023-10-14 12:53:09.996 - HotkeysConfig file does not exist: C:\Users\acer\Documents\ScreenRecorder\HotkeysConfig.json
+2023-10-14 12:53:09.996 - HotkeysConfig file does not exist: C:\Users\acer\Documents\ScreenRecorder\HotkeysConfig.json.temp
+2023-10-14 12:53:09.997 - HotkeysConfig file does not exist: C:\Users\acer\Documents\ScreenRecorder\Backup\HotkeysConfig.json
+2023-10-14 12:53:09.997 - Loading new HotkeysConfig instance.
+2023-10-14 12:53:09.999 - MainForm init started.
+2023-10-14 12:53:10.263 - MainForm init finished.
+2023-10-14 12:53:10.306 - Startup time: 1212 ms
+2023-10-14 12:53:11.134 - GitHub update check failed:
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at ShareX.HelpersLib.GitHubUpdateChecker.GetReleases()
+   at ShareX.HelpersLib.GitHubUpdateChecker.GetLatestRelease(Boolean includePreRelease)
+   at ShareX.HelpersLib.GitHubUpdateChecker.CheckUpdate()
+2023-10-14 12:53:11.544 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2023-10-14 12:53:11.544 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2023-10-14 12:53:11.544 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2023-10-14 12:53:11.544 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2023-10-14 12:53:11.544 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2023-10-14 12:53:11.546 - HotkeyManager started.
+2023-10-14 12:53:11.546 - WatchFolderManager started.
+2023-10-14 12:53:11.568 - Downloading: "http://windowsapi.gamestudiousa.com/ffmpeg/ffmpeg.zip" -> "C:\Users\acer\AppData\Local\Temp\ScreenCaptureEditor\ffmpeg.zip"
+2023-10-14 12:53:18.790 - CLI: "C:\Users\acer\Documents\ScreenRecorder\Tools\ffmpeg.exe" -list_devices true -f dshow -i dummy
+2023-10-14 12:55:00.439 - ApplicationConfig save started: C:\Users\acer\Documents\ScreenRecorder\ApplicationConfig.json
+2023-10-14 12:55:00.439 - HotkeysConfig save started: C:\Users\acer\Documents\ScreenRecorder\HotkeysConfig.json
+2023-10-14 12:55:00.597 - HotkeysConfig save successful: C:\Users\acer\Documents\ScreenRecorder\HotkeysConfig.json
+2023-10-14 12:55:00.613 - ApplicationConfig save successful: C:\Users\acer\Documents\ScreenRecorder\ApplicationConfig.json
+2023-10-14 15:54:43.082 - ScreenCaptureEditor closing.
+2023-10-14 15:54:43.117 - ApplicationConfig save started: C:\Users\acer\Documents\ScreenRecorder\ApplicationConfig.json
+2023-10-14 15:54:43.566 - ApplicationConfig save successful: C:\Users\acer\Documents\ScreenRecorder\ApplicationConfig.json
+2023-10-14 15:54:43.566 - HotkeysConfig save started: C:\Users\acer\Documents\ScreenRecorder\HotkeysConfig.json
+2023-10-14 15:54:43.767 - HotkeysConfig save successful: C:\Users\acer\Documents\ScreenRecorder\HotkeysConfig.json
+2023-10-14 15:54:43.767 - ScreenCaptureEditor closed.
