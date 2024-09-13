@@ -1,0 +1,64 @@
+Microsoft Windows [Version 10.0.22621.2428]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acer>version --flask
+'version' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\acer>version flask
+'version' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\acer>flask ver
+'flask' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\acer>ver --flask
+
+Microsoft Windows [Version 10.0.22621.2428]
+
+C:\Users\acer>python -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/50/c2/e06851e8cc28dcad7c155f4753da8833ac06a5c704c109313b8d5a62968a/pip-23.2.1-py3-none-any.whl (2.1MB)
+     |████████████████████████████████| 2.1MB 1.3MB/s
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-23.2.1
+
+C:\Users\acer>pip install Flask
+Collecting Flask
+  Downloading Flask-2.2.5-py3-none-any.whl (101 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.8/101.8 kB 974.2 kB/s eta 0:00:00
+Collecting Werkzeug>=2.2.2 (from Flask)
+  Downloading Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 233.6/233.6 kB 3.5 MB/s eta 0:00:00
+Collecting Jinja2>=3.0 (from Flask)
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB ? eta 0:00:00
+Collecting itsdangerous>=2.0 (from Flask)
+  Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting click>=8.0 (from Flask)
+  Obtaining dependency information for click>=8.0 from https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl.metadata
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: importlib-metadata>=3.6.0 in c:\users\acer\appdata\local\programs\python\python37\lib\site-packages (from Flask) (6.1.0)
+Collecting colorama (from click>=8.0->Flask)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Requirement already satisfied: zipp>=0.5 in c:\users\acer\appdata\local\programs\python\python37\lib\site-packages (from importlib-metadata>=3.6.0->Flask) (3.15.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in c:\users\acer\appdata\local\programs\python\python37\lib\site-packages (from importlib-metadata>=3.6.0->Flask) (4.5.0)
+Collecting MarkupSafe>=2.0 (from Jinja2>=3.0->Flask)
+  Obtaining dependency information for MarkupSafe>=2.0 from https://files.pythonhosted.org/packages/9b/c1/9f44da5ca74f95116c644892152ca6514ecdc34c8297a3f40d886147863d/MarkupSafe-2.1.3-cp37-cp37m-win_amd64.whl.metadata
+  Downloading MarkupSafe-2.1.3-cp37-cp37m-win_amd64.whl.metadata (3.1 kB)
+Downloading click-8.1.7-py3-none-any.whl (97 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB ? eta 0:00:00
+Downloading MarkupSafe-2.1.3-cp37-cp37m-win_amd64.whl (17 kB)
+Installing collected packages: MarkupSafe, itsdangerous, colorama, Werkzeug, Jinja2, click, Flask
+Successfully installed Flask-2.2.5 Jinja2-3.1.2 MarkupSafe-2.1.3 Werkzeug-2.2.3 click-8.1.7 colorama-0.4.6 itsdangerous-2.1.2
+
+C:\Users\acer>flask --version
+Python 3.7.6
+Flask 2.2.5
+Werkzeug 2.2.3
+
+C:\Users\acer>

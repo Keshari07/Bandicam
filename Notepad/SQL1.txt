@@ -1,0 +1,84 @@
+Creating a Database:
+
+sql
+Copy code
+CREATE DATABASE mydatabase;
+Selecting a Database:
+
+sql
+Copy code
+USE mydatabase;
+Creating a Table:
+
+sql
+Copy code
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    email VARCHAR(100)
+);
+Inserting Data:
+
+sql
+Copy code
+INSERT INTO users (username, email) VALUES ('JohnDoe', 'john@example.com');
+Selecting Data:
+
+sql
+Copy code
+SELECT * FROM users;
+Updating Data:
+
+sql
+Copy code
+UPDATE users SET email = 'newemail@example.com' WHERE username = 'JohnDoe';
+Deleting Data:
+
+sql
+Copy code
+DELETE FROM users WHERE username = 'JohnDoe';
+Filtering Data with WHERE:
+
+sql
+Copy code
+SELECT * FROM users WHERE username = 'Alice';
+Sorting Data with ORDER BY:
+
+sql
+Copy code
+SELECT * FROM users ORDER BY username ASC;
+Limiting Results:
+
+sql
+Copy code
+SELECT * FROM users LIMIT 10;
+Joining Tables:
+
+sql
+Copy code
+SELECT orders.order_id, users.username
+FROM orders
+JOIN users ON orders.user_id = users.id;
+Grouping and Aggregating Data:
+
+sql
+Copy code
+SELECT category, COUNT(*) as count
+FROM products
+GROUP BY category;
+Using Aliases:
+
+sql
+Copy code
+SELECT first_name AS "First Name", last_name AS "Last Name"
+FROM employees;
+Using Subqueries:
+
+sql
+Copy code
+SELECT username
+FROM users
+WHERE user_id IN (SELECT user_id FROM orders WHERE total_amount > 100);
+Adding Indexes for Performance:
+
+sql

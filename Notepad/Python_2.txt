@@ -1,0 +1,83 @@
+Python is a cross-platform programming language, which means that it can run on multiple platforms like Windows, macOS, Linux, and has even been ported to the Java and .NET virtual machines. It is free and open-source
+
+
+Your first Python Program
+Now that we have Python up and running, we can write our first Python program.
+
+Let's create a very simple program called Hello World. A "Hello, World!" is a simple program that outputs Hello, World! on the screen. Since it's a very simple program, it's often used to introduce a new programming language to beginners.
+
+Type the following code in any text editor or an IDE and save it as hello_world.py
+
+
+Hello, world!
+>
+
+
+
+Python Keywords and Identifiers
+Python Keywords
+Keywords are predefined, reserved words used in Python programming that have special meanings to the compiler.
+
+We cannot use a keyword as a variable name, function name, or any other identifier. They are used to define the syntax and structure of the Python language.
+
+All the keywords except True, False and None are in lowercase and they must be written as they are. The list of all the keywords is given below.
+
+
+              Python Keywords List	 	 
+False	await	else	import	pass
+None	break	except	in	raise
+True	class	finally	is	return
+and	continue	for	lambda	try
+as	def	from	nonlocal	while
+assert	del	global	not	with
+async	elif	if	or	yield
+
+
+Python Identifiers
+
+
+Identifiers are the name given to variables, classes, methods, etc. For example,
+
+language = 'Python'
+Here, language is a variable (an identifier) which holds the value 'Python'.
+
+We cannot use keywords as variable names as they are reserved names that are built-in to Python. For example,
+
+continue = 'Python'
+The above code is wrong because we have used continue as a variable name. To learn more about variables, visit Python Variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rules for Naming an Identifier
+Identifiers cannot be a keyword.
+Identifiers are case-sensitive.
+It can have a sequence of letters and digits. However, it must begin with a letter or _. The first letter of an identifier cannot be a digit.
+It's a convention to start an identifier with a letter rather _.
+Whitespaces are not allowed.
+We cannot use special symbols like !, @, #, $, and so on.
+Some Valid and Invalid Identifiers in Python
+Valid Identifiers	Invalid Identifiers
+score	@core
+return_value	return
+highest_score	highest score
+name1	1name
+convert_to_string	convert to_string
+Things to Remember
+Python is a case-sensitive language. This means, Variable and variable are not the same.
+
+Always give the identifiers a name that makes sense. While c = 10 is a valid name, writing count = 10 would make more sense, and it would be easier to figure out what it represents when you look at your code after a long gap.
+
+Multiple words can be separated using an underscore, like this_is_a_long_variable.
+
+
+
